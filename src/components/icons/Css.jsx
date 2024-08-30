@@ -6,7 +6,7 @@ const CssIcon = ({ width, height }) => {
       viewBox="-52.5 0 361 361"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
       preserveAspectRatio="xMidYMid"
     >
       <g>

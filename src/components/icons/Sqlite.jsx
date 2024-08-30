@@ -5,7 +5,7 @@ const SqliteIcon = ({ width, height, color }) => {
       height={height}
       viewBox="0 0 32 32"
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
     >
       <defs>
         <linearGradient
@@ -17,9 +17,9 @@ const SqliteIcon = ({ width, height, color }) => {
           gradientTransform="matrix(0, 11.486, 11.486, 0, -510.889, 1363.307)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#97d9f6" />
-          <stop offset="0.92" stop-color="#0f80cc" />
-          <stop offset="1" stop-color="#0f80cc" />
+          <stop offset="0" stopColor="#97d9f6" />
+          <stop offset="0.92" stopColor="#0f80cc" />
+          <stop offset="1" stopColor="#0f80cc" />
         </linearGradient>
       </defs>
       <title>file_type_sqlite</title>

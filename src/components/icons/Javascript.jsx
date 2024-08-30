@@ -2,7 +2,7 @@ const JavascriptIcon = ({ width, height }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      aria-label="JavaScript"
+      ariaLabel="JavaScript"
       role="img"
       viewBox="0 0 512 512"
     >

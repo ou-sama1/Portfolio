@@ -3,3 +3,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.light {
+  --primary: 0, 123, 255;
+  --secondary: 255, 255, 255;
+  --text: 0, 0, 0;
+  --card: 245, 245, 245;
+  background: rgba(var(--secondary));
+}
+
+.dark {
+  --primary: 0, 123, 255;
+  --secondary: 11, 11, 11;
+  --text: 255, 255, 255;
+  --card: 16, 16, 16;
+  background: rgba(var(--secondary));
+}

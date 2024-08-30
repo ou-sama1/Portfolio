@@ -6,7 +6,7 @@ const LaravelIcon = ({ width, height }) => {
       viewBox="-4 0 264 264"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
       preserveAspectRatio="xMidYMid"
     >
       <g>

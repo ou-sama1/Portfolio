@@ -19,3 +19,4 @@ export { default as SunIcon } from "./Sun";
 export { default as TailwindIcon } from "./Tailwind";
 export { default as MailIcon } from "./Mail";
 export { default as NetworkIcon } from "./Network";
+export { default as HamburgerIcon } from "./Hamburger";

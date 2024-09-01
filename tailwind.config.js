@@ -78,7 +78,7 @@ export default {
           "100%": { transform: "translateX(0%)", opacity: 1 },
         },
         fadeUp: {
-          "0%": { transform: "translateY(300%)", opacity: 0.1 },
+          "0%": { transform: "translateY(20%)", opacity: 0.1 },
           "100%": { transform: "translateY(0%)", opacity: 1 },
         },
         typewriter: {

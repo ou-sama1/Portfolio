@@ -20,3 +20,4 @@ export { default as TailwindIcon } from "./Tailwind";
 export { default as MailIcon } from "./Mail";
 export { default as NetworkIcon } from "./Network";
 export { default as HamburgerIcon } from "./Hamburger";
+export { default as MysqlIcon } from "./Mysql";

@@ -18,26 +18,26 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed top-0 z-50 w-full px-10">
+    <header className="fixed top-0 z-50 w-full px-10 backdrop-blur-md h-28">
       <nav className="mx-auto flex w-full max-w-5xl flex-row items-center justify-between py-10 text-text">
         <span className="text-3xl font-extrabold">
           OE<span className="text-primary">.</span>
         </span>
         <ul className="hidden flex-row gap-10 text-lg md:flex">
           <li className="transition hover:text-primary">
-            <a href="">Home</a>
+            <a href="#hero">Home</a>
           </li>
           <li className="transition hover:text-primary">
-            <a href="">About</a>
+            <a href="#about">About</a>
           </li>
           <li className="transition hover:text-primary">
-            <a href="">Skills</a>
+            <a href="#skills">Skills</a>
           </li>
           <li className="transition hover:text-primary">
-            <a href="">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li className="transition hover:text-primary">
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
         <div className="hidden md:block">

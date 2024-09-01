@@ -1,6 +1,14 @@
 import { useEffect, useState } from "react";
 
-import { HeroSection, Navbar } from "./components";
+import {
+  AboutSection,
+  ContactSection,
+  Footer,
+  HeroSection,
+  Navbar,
+  ProjectsSection,
+  SkillsSection,
+} from "./components";
 import ThemeContext from "./contexts/ThemeContext";
 
 function App() {
@@ -25,6 +33,11 @@ function App() {
       <main className="relative">
         <Navbar />
         <HeroSection />
+        <AboutSection />
+        <SkillsSection />
+        <ProjectsSection />
+        <ContactSection />
+        <Footer />
       </main>
     </ThemeContext.Provider>
   );

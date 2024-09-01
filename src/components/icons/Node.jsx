@@ -9,6 +9,7 @@ const NodeIcon = ({ width, height }) => {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       preserveAspectRatio="xMidYMid"
     >
+      <title>NodeJS</title>
       <defs>
         <linearGradient
           x1="68.1884411%"

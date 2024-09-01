@@ -9,6 +9,7 @@ const HtmlIcon = ({ width, height }) => {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       preserveAspectRatio="xMidYMid"
     >
+      <title>HTML5</title>
       <g>
         <path
           d="M255.554813,70.7657143 L232.31367,331.125451 L127.843868,360.087912 L23.6617143,331.166242 L0.445186813,70.7657143 L255.554813,70.7657143 L255.554813,70.7657143 Z"

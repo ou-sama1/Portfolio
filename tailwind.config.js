@@ -40,6 +40,12 @@ export default {
         184: "46rem",
         288: "72rem",
       },
+      dropShadow: {
+        glow: [
+          "0 0px 10px rgba(255,255, 255, 0.35)",
+          "0 0px 30px rgba(255, 255,255, 0.2)"
+        ]
+      },
       borderRadius: {
         xl: "1rem",
       },

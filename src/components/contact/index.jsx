@@ -27,7 +27,7 @@ const ContactSection = () => {
       </h2>
       <p
         ref={ref}
-        className={`text-2xl md:text-3xl ${inView ? "animate-fadeRight" : ""}`}
+        className={`text-2xl md:text-3xl ${inView ? "animate-fadeRight opacity-100" : "opacity-0"}`}
       >
         If you have any questions feel free to email me.
       </p>

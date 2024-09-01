@@ -15,7 +15,7 @@ const MobileMenu = ({ expand, animation, closeMobileMenu }) => {
       <ul
         className={`${animation === "openMenu" ? "animate-openMenu" : ""} ${animation === "closeMenu" ? "animate-closeMenu" : ""} absolute right-0 top-0 z-40 flex h-full w-2/3 min-w-52 flex-col items-center justify-center gap-10 bg-card py-10`}
       >
-        <li className="text-xl font-thin transition hover:text-primary">
+        <li className="text-xl transition hover:text-primary">
           <button onClick={closeMenuHandler}>X</button>
         </li>
         <li className="transition hover:text-primary">

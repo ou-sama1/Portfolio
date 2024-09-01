@@ -5,6 +5,10 @@ const AboutSection = () => {
     triggerOnce: false,
     threshold: 0.1,
   });
+  const handleDownloadResume = () => {
+    const resumeUrl = "/Oussama_ELBACHIRI_CV.pdf";
+    window.open(resumeUrl, "_blank");
+  };
   return (
     <section
       id="about"
@@ -23,12 +27,12 @@ const AboutSection = () => {
         <img
           src={profilePicture}
           alt="profile picture"
-          className={`h-56 w-56 rounded-full object-cover md:h-auto md:w-44 md:rounded-lg lg:w-56 ${inView ? "animate-fadeRight opacity-100" : "opacity-0"}`}
+          className={`drop-shadow-glow h-56 w-56 rounded-full object-cover md:h-auto md:w-44 md:rounded-lg lg:w-56 ${inView ? "animate-fadeRight opacity-100" : "opacity-0"}`}
         />
         <div
           className={`flex flex-col items-center justify-between gap-5 md:items-start ${inView ? "animate-fadeUp opacity-100" : "opacity-0"}`}
         >
-          <p className="text-center text-lg text-text md:text-start md:text-xl lg:text-2xl">
+          <p className="text-center text-lg italic text-text md:text-start md:text-xl lg:text-2xl">
             &ldquo; Im <span className="font-bold text-primary">Oussama</span>,
             a Full-Stack developer and a freelancer from Morocco, I developed
             web sites using React, Laravel, Express and more, i have also
@@ -36,7 +40,10 @@ const AboutSection = () => {
             enthusiastic about how things work and how to solve problems using
             code. &rdquo;
           </p>
-          <button className="rounded-lg border border-primary px-10 py-4 text-sm font-bold text-primary transition hover:bg-primary hover:text-white md:text-lg">
+          <button
+            onClick={handleDownloadResume}
+            className="rounded-lg border border-primary px-10 py-4 text-sm font-bold text-primary transition hover:bg-primary hover:text-white md:text-lg"
+          >
             Download CV
           </button>
         </div>
